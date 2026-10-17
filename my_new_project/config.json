@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "email": "lakshmiprasanna.avula@cgi.com",
+      "password": "Test@123"
+    },
+    {
+      "email": "nasim.m@cgi.com",
+      "password": "Test@123"
+    },
+    {
+      "email": "suresh.divyakolu@cgi.com",
+      "password": "Test@123"
+    },
+    {
+      "email": "saibal.das@cgi.com",
+      "password": "Test@123"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AUTORESPOND.AI Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page" id="loginPage">
+    <section class="hero-panel">
+      <div class="hero-bg"></div>
+      <div class="hero-noise"></div>
+
+      <div class="hero-content">
+        <div class="hero-copy">
+          <h1>
+            <span class="light">AI-Powered</span>
+            <span class="accent">Campaign Intelligence</span>
+          </h1>
+          <div class="hero-lines">
+            <span></span>
+            <span></span>
+          </div>
+          <p>Smarter campaigns. Real-time engagement.<br>Powered by autonomous AI.</p>
+        </div>
+
+        <div class="orb whatsapp">
+          <div class="orb-ring"></div>
+          <div class="orb-core">◔</div>
+          <div class="orb-label">
+            <strong>WhatsApp</strong>
+            <span>Connect Instantly</span>
+          </div>
+        </div>
+
+        <div class="orb sms">
+          <div class="orb-ring"></div>
+          <div class="orb-core">💬</div>
+          <div class="orb-label">
+            <strong>SMS</strong>
+            <span>Text That Converts</span>
+          </div>
+        </div>
+
+        <div class="orb email">
+          <div class="orb-ring"></div>
+          <div class="orb-core">✉</div>
+          <div class="orb-label">
+            <strong>Email</strong>
+            <span>Automate &amp; Engage</span>
+          </div>
+        </div>
+
+        <div class="brain-wrap">
+          <div class="brain-glow"></div>
+          <div class="brain"></div>
+          <div class="platform"></div>
+        </div>
+
+        <div class="stats-card">
+          <div class="stat">
+            <div class="stat-ico">👥</div>
+            <div class="stat-value">24.8K+</div>
+            <div class="stat-label">Total Users</div>
+            <div class="stat-sub">▲ 18.6% this month</div>
+          </div>
+          <div class="stat">
+            <div class="stat-ico">✈</div>
+            <div class="stat-value">1.2M+</div>
+            <div class="stat-label">Campaigns Sent</div>
+            <div class="stat-sub">▲ 27.4% this month</div>
+          </div>
+          <div class="stat">
+            <div class="stat-ico">📈</div>
+            <div class="stat-value">98.7%</div>
+            <div class="stat-label">Delivery Rate</div>
+            <div class="stat-sub">▲ 2.1% this month</div>
+          </div>
+          <div class="stat">
+            <div class="stat-ico">🎯</div>
+            <div class="stat-value">32.4%</div>
+            <div class="stat-label">Engagement Rate</div>
+            <div class="stat-sub">▲ 6.3% this month</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="login-shell">
+      <div class="login-card">
+        <div class="brand">
+          <div class="brand-mark" aria-label="AUTORESPOND.AI logo">
+            <span class="brand-ar">AR</span>
+          </div>
+          <div class="brand-text">
+            <div class="brand-title">AUTORESPOND<span>.AI</span></div>
+            <div class="brand-subtitle">AI-POWERED COMMUNICATIONS</div>
+          </div>
+        </div>
+
+        <div class="welcome">
+          <h2>Welcome Back 👋</h2>
+          <p>Sign in to continue to your account</p>
+        </div>
+
+        <form id="loginForm" class="form">
+          <div class="field">
+            <label for="email">Email Address</label>
+            <div class="input-wrap">
+              <span class="input-icon">✉</span>
+              <input id="email" type="email" placeholder="Enter your email" autocomplete="email" />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="password">Password</label>
+            <div class="input-wrap">
+              <span class="input-icon">🔒</span>
+              <input id="password" type="password" placeholder="Enter your password" autocomplete="current-password" />
+              <button type="button" class="eye-btn" id="togglePassword" aria-label="Toggle password visibility">◉</button>
+            </div>
+          </div>
+
+          <a href="#" class="forgot">Forgot Password?</a>
+
+          <button type="submit" class="sign-btn">Sign In</button>
+
+          <div class="divider">
+            <span></span>
+            <p>OR</p>
+            <span></span>
+          </div>
+
+          <button type="button" class="google-btn" id="googleBtn">
+            <span class="google-g">G</span>
+            Continue with Google
+          </button>
+
+          <p class="signup">Don’t have an account? <a href="#">Sign up now</a></p>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <div class="dashboard-page" id="dashboardPage">
+    <div class="app-wrapper">
+      <nav class="sidebar">
+        <div class="sidebar-brand">AutoRespond<span>.ai</span></div>
+        <ul class="nav-list">
+          <li class="nav-item active" id="n1"><div class="nav-num">1</div> Product Name</li>
+          <li class="nav-item" id="n2"><div class="nav-num">2</div> Brand Assets</li>
+          <li class="nav-item" id="n3"><div class="nav-num">3</div> Documentation</li>
+          <li class="nav-item" id="n4"><div class="nav-num">4</div> Email Labels</li>
+          <li class="nav-item" id="n5"><div class="nav-num">5</div> Product Description</li>
+        </ul>
+      </nav>
+
+      <main class="chat-engine">
+        <header class="chat-header">
+          <div class="session-info">
+            <div class="label">ACTIVE SESSION</div>
+            <div class="sub">Workspace Configuration</div>
+          </div>
+          <button class="logout-btn" id="logoutBtn" aria-label="Logout and return to login">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M13 3h-2v10h2V3zm4.83 2.17l-1.42 1.42C17.99 7.86 19 9.81 19 12c0 3.87-3.13 7-7 7s-7-3.13-7-7c0-2.19 1.01-4.14 2.58-5.42L6.17 5.17C4.23 6.82 3 9.26 3 12c0 4.97 4.03 9 9 9s9-4.03 9-9c0-2.74-1.23-5.18-3.17-6.83z"/>
+            </svg>
+            Logout
+          </button>
+        </header>
+
+        <div class="chat-viewport" id="chatBox"></div>
+
+        <footer class="chat-footer">
+          <div class="input-wrapper">
+            <button class="btn-icon" type="button" aria-label="Attach files" id="fileBtn">📎</button>
+            <input type="file" id="fileInput" multiple style="position:absolute; left:-9999px;">
+            <input type="text" id="userInput" placeholder="Type your message here..." autocomplete="off">
+            <button class="btn-icon" type="button" aria-label="Send message" id="sendBtn" style="color: var(--primary);">➤</button>
+          </div>
+          <div id="inputError" class="field-error"></div>
+        </footer>
+      </main>
+
+      <aside class="preview-panel">
+        <div class="status-box" id="box1">
+          <div class="status-label">1. Product Name</div>
+          <div class="status-val" id="prev-name">Pending...</div>
+        </div>
+        <div class="status-box" id="box2">
+          <div class="status-label">2. Brand Assets</div>
+          <div id="prev-assets" style="font-size: 0.8rem;">
+            <p id="prev-banner" style="opacity: 0.5;">○ Banner (Image)</p>
+            <p id="prev-logo" style="opacity: 0.5;">○ Logo (Image)</p>
+          </div>
+        </div>
+        <div class="status-box" id="box3">
+          <div class="status-label">3. Documentation</div>
+          <div class="status-val" id="prev-docs">0 Files</div>
+        </div>
+        <div class="status-box" id="box4">
+          <div class="status-label">4. Email Labels</div>
+          <div class="status-val" id="prev-labels">Pending...</div>
+        </div>
+        <div class="status-box" id="box5">
+          <div class="status-label">5. Product Description</div>
+          <div class="status-val" id="prev-desc">Waiting...</div>
+        </div>
+        <button id="launchBtn" class="launch-card" disabled>Send Campaign Automatically</button>
+        <div class="step-hint">Complete all five steps to enable campaign launch.</div>
+      </aside>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
